@@ -14,5 +14,3 @@ function backDoorResponse(string) {
 function backDoorPassword(string) {
     return frontDoorPassword(string.trim()) + ", please"
 }
-
-console.log(backDoorPassword("stands so high   "));
